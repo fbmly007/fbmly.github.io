@@ -1,36 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>设置root密码</title>
-      <link href="/2019/07/23/Ubuntu-Root-Password/"/>
-      <url>/2019/07/23/Ubuntu-Root-Password/</url>
-      
-        <content type="html"><![CDATA[<p>刚安装完 Ubuntu 后, 使用su命令不能切换到root用户<br>这个时候需要先设置root用户的密码。</p><p>输入下面的命令设置root用户的密码:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo passwd root</span><br></pre></td></tr></table></figure><p>会要求输入当前用户的密码, 然后就可以设置新密码了(输入两次)<br>当提示 password updated successfully 就代表成功了</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">haofeng@ubuntu:~$ sudo passwd root</span><br><span class="line">[sudo] password <span class="keyword">for</span> haofeng:</span><br><span class="line">Enter new UNIX password: </span><br><span class="line">Retype new UNIX password: </span><br><span class="line">passwd: password updated successfully</span><br></pre></td></tr></table></figure><p>以后就可以使用下面的命令切换到root用户了</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">su root</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
+<search>
+  <entry>
+    <title><![CDATA[设置root密码]]></title>
+    <url>%2F2019%2F07%2F23%2FUbuntu-Root-Password%2F</url>
+    <content type="text"><![CDATA[刚安装完 Ubuntu 后, 使用su命令不能切换到root用户这个时候需要先设置root用户的密码。 输入下面的命令设置root用户的密码: 1sudo passwd root 会要求输入当前用户的密码, 然后就可以设置新密码了(输入两次)当提示 password updated successfully 就代表成功了 12345haofeng@ubuntu:~$ sudo passwd root[sudo] password for haofeng:Enter new UNIX password: Retype new UNIX password: passwd: password updated successfully 以后就可以使用下面的命令切换到root用户了 1su root]]></content>
       <categories>
-          
-          <category> Linux </category>
-          
-          <category> Ubuntu </category>
-          
+        <category>Linux</category>
+        <category>Ubuntu</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Linux </tag>
-            
-            <tag> Ubuntu </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>Linux</tag>
+        <tag>Ubuntu</tag>
+      </tags>
+  </entry>
 </search>
